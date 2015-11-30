@@ -1,19 +1,23 @@
 body{
-	color: #333;
-	color: #333333;
-	color: #abc;/* color: rrggbb*/
+	color: red; 
+
+	font-family: sans-serif;/* ff:ss */
+}
+
+form{
+	padding: 1em;
 }
 
 .post{
-	margin-bottom: 1em;/*mb1em*/
-	padding: 1em;/*p1em*/
-	border: 1px solid #000;/*bd+*/
-	border-radius: 1em;/*bdrs1em*/
+	margin-bottom: 1em;/* mb1em 間隔 */
+	padding: 1em;/* p1em 內部空間 */
+	border: 1px solid #000;/* bd+ 外部框線 */
+	border-radius: 1em;/* bdrs1em 園角 */
 
 }
 
 .field{
 	color: #eee;
-
-	border-bottom: #333;/*bgb*/
+	background-color: #333;/* bgc */
+	/*p0*/
 }
