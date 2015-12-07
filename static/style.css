@@ -1,23 +1,44 @@
-body{
-	color: red; 
-
-	font-family: sans-serif;/* ff:ss */
+body {
+	/* c */
+	color: #333;
+	/* ff:ss */
+	font-family: sans-serif;
 }
 
-form{
+form {
 	padding: 1em;
 }
 
-.post{
-	margin-bottom: 1em;/* mb1em 間隔 */
-	padding: 1em;/* p1em 內部空間 */
-	border: 1px solid #000;/* bd+ 外部框線 */
-	border-radius: 1em;/* bdrs1em 園角 */
-
+form > div {
+	/*mb1em*/
+	margin-bottom: 1em;
 }
 
-.field{
+.banner {
+	margin: 2em 0;
+	border-radius: 2em;
+	background-color: #333;
+}
+
+.banner img {
+	max-width: 100%;
+}
+
+.post {
+	/* mb1em 擠出空間，讓post之間不要擠在一起 */
+	margin-bottom: 1em;
+	/* p1em 內部空間，不要讓文字貼在邊線上 */
+	padding: 0 1em;
+	/* bd+ 外部框線 */
+	border: 1px solid #000;
+	/* bdrs1em 圓角 */
+	border-radius: 1em;
+}
+
+.field {
 	color: #eee;
-	background-color: #333;/* bgc */
-	/*p0*/
+	/* bgc */
+	background-color: #333;
+	/* p0.2em */
+	padding: 0.2em;
 }
