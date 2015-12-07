@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>超簡單留言板</title>
+	<!-- link:css -->
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="banner">
+		<img src="logo.svg" alt="">
+	</div>
+	<form action="">
+		<div>
+			<!-- for 跟 id 綁在一起 -->
+			<label for="author" class="field">作者</label>
+			<!-- input:text#author -->
+			<input type="text" name="author" id="author">
+		</div>
+		<div>
+			<label for="message" class="field">訊息</label>
+			<!-- 可以輸入多行文字 -->
+			<textarea name="message" id="message" cols="30" rows="10"></textarea>
+		</div>
+		<div>
+			<!-- input:submit -->
+			<input type="submit" value="送出留言">
+		</div>
+	</form>
+
+	<div class="post">
+		<p>
+			<span class="field">作者</span>
+			Inndy
+		</p>
+		<p>
+			<span class="field">訊息</span>
+			Hello, World
+		</p>
+	</div>
+	<div class="post">
+		<p>
+			<span class="field">作者</span>
+			Inndy
+		</p>
+		<p>
+			<span class="field">訊息</span>
+			Hello, World
+		</p>
+	</div>
+	<div class="post">
+		<p>
+			<span class="field">作者</span>
+			Inndy
+		</p>
+		<p>
+			<span class="field">訊息</span>
+			Hello, World
+		</p>
+	</div>
+</body>
+</html>

@@ -1,7 +1,7 @@
-from bottle import run, route
+from bottle import run, route,template
 
 @route('/')
-def hello():
-        return '<b>Hello, Bottle.py</b>'
+def index():
+        return template('static/index.html')
         
 run()
