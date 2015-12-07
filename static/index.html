@@ -10,7 +10,7 @@
 	<div class="banner">
 		<img src="static/logo.svg" alt="">
 	</div>
-	<form action="">
+	<form action="/post" method="POST">
 		<div>
 			<!-- for 跟 id 綁在一起 -->
 			<label for="author" class="field">作者</label>
@@ -31,14 +31,13 @@
 	<div class="post">
 		<p>
 			<span class="field">作者</span>
-			bamadart
+			{{post['author']}}
 		</p>
 		<p>
 			<span class="field">訊息</span>
-			Hello, World
+			{{post['message']}}
 		</p>
 	</div>
 %end
-	</div>
 </body>
 </html>
